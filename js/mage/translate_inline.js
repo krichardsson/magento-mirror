@@ -50,11 +50,11 @@ TranslateInline.prototype = {
 
         Event.observe(document.body, 'mousemove', function(e) {
             var target = Event.element(e);
-            if (!$(target).match('*[translate]')) {
+            if (!$(target).readAttribute('translate')) {
                 target = target.up('*[translate]');
             }
 
-            if (target && $(target).match('*[translate]')) {
+            if (target && $(target).readAttribute('translate')) {
                 this.trigShow(target, e);
             } else {
                 if (Event.element(e).match('#' + trigEl)) {
