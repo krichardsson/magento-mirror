@@ -97,3 +97,11 @@ Hunk #1 succeeded at 102 (offset -6 lines).
 Hunk #2 succeeded at 202 (offset -41 lines).
 
 
+-e -n 2015-10-07 07:30:47 UTC | SUPEE-2629 | EE_1.12.0.0 | v1 | 5de775cf535e137b0b099d8066bd5b3a81f7ec4c | Wed Dec 11 16:50:40 2013 +0200 | v1.12.0.0..HEAD
+patching file app/code/core/Mage/Catalog/Model/Product.php
+patching file app/code/core/Mage/Core/Controller/Varien/Router/Standard.php
+patching file app/code/core/Mage/Install/etc/config.xml
+Hunk #1 succeeded at 91 (offset 22 lines).
+patching file app/code/core/Zend/Pdf/FileParserDataSource.php
+
+
